@@ -1,0 +1,2 @@
+buswidth_bits,block_B,num_subarrays,access_ns,cycle_ns,bw_GBps,read_nJ,write_nJ,leak_mW,area_mm2,htree_nJ,out_driver_nJ,bitlines_nJ,senseamp_nJ,wordline_nJ,decoder_nJ,Ndwl,Ndbl,Nspd,acc_le_2ns,cyc_le_2ns
+8192,8,128,0.948249,0.729122,1404.4,0.344202,1.20526,2.58472,1.82977,0,0.0868326,0.150595,0.0304552,0.00967167,0.0128009,2,2,1,ok,ok

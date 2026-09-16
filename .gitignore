@@ -1,0 +1,40 @@
+# Build artifacts
+*.o
+optimizer
+main
+sim
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Batch results (large and reproducible; the structopt originals are kept in real_strucopt.zip)
+batch_*/
+*.txt.tmp
+
+# DRAMsim3 runtime output
+dramsim3.json
+dramsim3.txt
+dramsim3epoch.json
+
+# CACTI build artifacts
+cacti/cacti
+cacti/obj_dbg/
+cacti/obj_opt/
+cacti/.git.disabled/
+cacti/.claude/
+
+# structopt experiment archive (experiment finished; kept out of the repo)
+real_strucopt.zip
+
+# External tools (installed separately; kept out of the repo)
+cacti/
+DRAMsim3/
+
+# Personal IDE/tool settings
+.claude/
+.idea/
+.vscode/
+
+# Synthesis results (large outputs; kept out of the repo)
+synthesis_results/
